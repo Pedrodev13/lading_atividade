@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const e=document.querySelector(".header ").clientHeight;window.addEventListener("scroll",function(){window.scrollY>e?document.querySelector("header").classList.add("header--is-hidden"):document.querySelector("header").classList.remove("header--is-hidden")})});
